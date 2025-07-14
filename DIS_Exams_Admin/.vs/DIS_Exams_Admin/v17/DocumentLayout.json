@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Stealth\\source\\repos\\DIS_Exams_Admin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C417A653-EC2B-42A7-ADB1-9D1DFB07585E}|DIS_Exams_Admin\\DIS_Exams_Admin.csproj|c:\\users\\stealth\\source\\repos\\dis_exams_admin\\dis_exams_admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C417A653-EC2B-42A7-ADB1-9D1DFB07585E}|DIS_Exams_Admin\\DIS_Exams_Admin.csproj|solutionrelative:dis_exams_admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
+              "DocumentMoniker": "C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
+              "ToolTip": "C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADfAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T09:15:20.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
+              "DocumentMoniker": "C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
+              "ToolTip": "C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T09:10:21.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Stealth\\source\\repos\\DIS_Exams_Admin\\DIS_Exams_Admin\\Program.cs",
+              "RelativeDocumentMoniker": "DIS_Exams_Admin\\Program.cs",
+              "ToolTip": "C:\\Users\\Stealth\\source\\repos\\DIS_Exams_Admin\\DIS_Exams_Admin\\Program.cs",
+              "RelativeToolTip": "DIS_Exams_Admin\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwDMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:50:26.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

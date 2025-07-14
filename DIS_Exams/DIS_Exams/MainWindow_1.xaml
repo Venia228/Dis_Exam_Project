@@ -1,0 +1,38 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DIS_Exams"
+        xmlns:System="clr-namespace:System;assembly=System.Runtime" x:Class="DIS_Exams.MainWindow_1"
+        xmlns:controls="clr-namespace:WpfMath.Controls;assembly=WpfMath"
+        mc:Ignorable="d"
+        Title="Программа для решения экзаменов (Main)" Height="900" Width="1600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True" Icon="/Logo.png" Background="#FFE6E6E6">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="taskSelection" Margin="1339,10,10,10" Background="#FF112955" FontSize="16" Foreground="White" FontWeight="Bold" Grid.ColumnSpan="2" SelectionChanged="taskSelection_SelectionChanged"/>
+
+        <Grid x:Name="taskPage" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="794" Margin="56,47,0,0" VerticalAlignment="Top" Width="1244" Visibility="Hidden">
+            <Label x:Name="pageLabel" Content="Задание " HorizontalAlignment="Left" Margin="56,47,0,0" VerticalAlignment="Top" Height="53" Width="266" FontSize="36" FontWeight="Bold" FontFamily="Arial Black" Background="Transparent" Foreground="#FF112955"/>
+            <Border x:Name="Border" BorderBrush="#FF112955" BorderThickness="5,5,5,5" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="471" Margin="105,109,0,0" VerticalAlignment="Top" Width="1128">
+                <StackPanel x:Name="panel" HorizontalAlignment="Left" Height="466" VerticalAlignment="Top" Width="1120">
+                    <ListView x:Name="taskCondition_textPart" Height="471" Width="1128" FontSize="20" IsHitTestVisible="False" Focusable="False"/>
+                    <controls:FormulaControl x:Name="taskCondition_formulaPart" Formula="10 \times \left ( 0 + 8 \right )" Height="202" Width="1060" Margin="0,-600,0,0" Scale="22" />
+                </StackPanel>
+            </Border>
+            <Grid x:Name="openAnwser" HorizontalAlignment="Left" Height="98" Margin="128,619,0,0" VerticalAlignment="Top" Width="812">
+                <TextBox x:Name="anwserField" HorizontalAlignment="Left" Height="28" Margin="114,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" FontSize="18" BorderThickness="3,3,3,3" TextChanged="anwserField_TextChanged"/>
+                <Label Content="Ответ:" HorizontalAlignment="Left" Margin="44,18,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" RenderTransformOrigin="0.513,0.444"/>
+            </Grid>
+        </Grid>
+        <Button x:Name="endButton" Content="Завершить" HorizontalAlignment="Left" Margin="961,720,0,0" VerticalAlignment="Top" Width="242" Height="52" FontSize="22" FontWeight="Bold" Foreground="White" Background="#FF112955" Click="endButton_Click" Grid.ColumnSpan="2">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBlock x:Name="Timer" HorizontalAlignment="Left" Height="29" Margin="979,777,0,0" TextWrapping="Wrap" Text="Осталось: 00:00:00" VerticalAlignment="Top" Width="242" FontWeight="UltraBlack" FontSize="20" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>
