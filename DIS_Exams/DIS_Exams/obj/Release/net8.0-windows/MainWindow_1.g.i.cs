@@ -142,7 +142,7 @@ namespace DIS_Exams {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DIS_Exams;V1.0.0.0;component/mainwindow_1.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DIS_Exams;component/mainwindow_1.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainWindow_1.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

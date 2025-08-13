@@ -1,26 +1,23 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Stealth\\source\\repos\\ExamApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\",
   "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4B25E4D-405F-4222-A39E-CB22D580CEC3}|ExamApi\\ExamApi.csproj|c:\\users\\stealth\\source\\repos\\examapi\\examapi\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4B25E4D-405F-4222-A39E-CB22D580CEC3}|ExamApi\\ExamApi.csproj|C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\examapi\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B25E4D-405F-4222-A39E-CB22D580CEC3}|ExamApi\\ExamApi.csproj|solutionrelative:examapi\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Stealth\\source\\repos\\DIS_Exams\\DIS_Exams\\bin\\Debug\\net8.0-windows\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4B25E4D-405F-4222-A39E-CB22D580CEC3}|ExamApi\\ExamApi.csproj|C:\\Users\\Stealth\\source\\repos\\ExamApi\\examapi\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4B25E4D-405F-4222-A39E-CB22D580CEC3}|ExamApi\\ExamApi.csproj|C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\examapi\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B25E4D-405F-4222-A39E-CB22D580CEC3}|ExamApi\\ExamApi.csproj|solutionrelative:examapi\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4B25E4D-405F-4222-A39E-CB22D580CEC3}|ExamApi\\ExamApi.csproj|C:\\Users\\Stealth\\source\\repos\\ExamApi\\examapi\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4B25E4D-405F-4222-A39E-CB22D580CEC3}|ExamApi\\ExamApi.csproj|C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\examapi\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B25E4D-405F-4222-A39E-CB22D580CEC3}|ExamApi\\ExamApi.csproj|solutionrelative:examapi\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,24 +33,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
-              "DocumentMoniker": "C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
-              "ToolTip": "C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
-              "RelativeToolTip": "..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-14T09:22:19.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
               "DocumentMoniker": "C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
               "ToolTip": "C:\\Users\\Stealth\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
-              "RelativeToolTip": "..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\\u042D\u043A\u0437\u0430\u043C\u0435\u043D\\Exams\\\u0422\u0435\u0441\u0442\u043E\u0432\u044B\u0439 \u044D\u043A\u0437\u0430\u043C\u0435\u043D.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-14T09:17:10.822Z",
@@ -61,36 +45,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
               "DocumentMoniker": "C:\\Users\\Stealth\\source\\repos\\DIS_Exams\\DIS_Exams\\bin\\Debug\\net8.0-windows\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
-              "RelativeDocumentMoniker": "..\\DIS_Exams\\DIS_Exams\\bin\\Debug\\net8.0-windows\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
+              "RelativeDocumentMoniker": "..\\..\\DIS_Exams\\DIS_Exams\\bin\\Debug\\net8.0-windows\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
               "ToolTip": "C:\\Users\\Stealth\\source\\repos\\DIS_Exams\\DIS_Exams\\bin\\Debug\\net8.0-windows\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
-              "RelativeToolTip": "..\\DIS_Exams\\DIS_Exams\\bin\\Debug\\net8.0-windows\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
+              "RelativeToolTip": "..\\..\\DIS_Exams\\DIS_Exams\\bin\\Debug\\net8.0-windows\\Exams\\\u041C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0430 5 \u043A\u043B\u0430\u0441\u0441.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-08T14:37:57.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\Stealth\\source\\repos\\ExamApi\\ExamApi\\Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\ExamApi\\Utils.cs",
               "RelativeDocumentMoniker": "ExamApi\\Utils.cs",
-              "ToolTip": "C:\\Users\\Stealth\\source\\repos\\ExamApi\\ExamApi\\Utils.cs",
+              "ToolTip": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\ExamApi\\Utils.cs",
               "RelativeToolTip": "ExamApi\\Utils.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T11:20:50.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T11:20:50.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Logging.cs",
-              "DocumentMoniker": "C:\\Users\\Stealth\\source\\repos\\ExamApi\\ExamApi\\Logging.cs",
+              "DocumentMoniker": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\ExamApi\\Logging.cs",
               "RelativeDocumentMoniker": "ExamApi\\Logging.cs",
-              "ToolTip": "C:\\Users\\Stealth\\source\\repos\\ExamApi\\ExamApi\\Logging.cs",
+              "ToolTip": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\ExamApi\\Logging.cs",
               "RelativeToolTip": "ExamApi\\Logging.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,11 +81,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "DataHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Stealth\\source\\repos\\ExamApi\\ExamApi\\DataHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\ExamApi\\DataHandler.cs",
               "RelativeDocumentMoniker": "ExamApi\\DataHandler.cs",
-              "ToolTip": "C:\\Users\\Stealth\\source\\repos\\ExamApi\\ExamApi\\DataHandler.cs",
+              "ToolTip": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\ExamApi\\DataHandler.cs",
               "RelativeToolTip": "ExamApi\\DataHandler.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -6,3 +6,13 @@ C:\Users\Stealth\source\repos\ExamApi\ExamApi\obj\Release\ExamApi.dll
 C:\Users\Stealth\source\repos\ExamApi\ExamApi\obj\Release\ExamApi.pdb
 C:\Users\Stealth\source\repos\ExamApi\ExamApi\bin\Release\NCalc.dll
 C:\Users\Stealth\source\repos\ExamApi\ExamApi\obj\Release\ExamApi.csproj.Up2Date
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\bin\Release\ExamApi.dll
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\bin\Release\ExamApi.pdb
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\bin\Release\NCalc.dll
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\bin\Release\Newtonsoft.Json.dll
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\bin\Release\Newtonsoft.Json.xml
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\obj\Release\ExamApi.csproj.AssemblyReference.cache
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\obj\Release\ExamApi.csproj.CoreCompileInputs.cache
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\obj\Release\ExamApi.csproj.Up2Date
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\obj\Release\ExamApi.dll
+C:\Users\Stealth\source\repos\Dis_Exam_Project\ExamApi\ExamApi\obj\Release\ExamApi.pdb

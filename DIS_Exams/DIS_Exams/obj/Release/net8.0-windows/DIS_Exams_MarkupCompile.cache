@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Stealth\source\repos\DIS_Exams\DIS_Exams\obj\Release\net8.0-windows\
+C:\Users\Stealth\source\repos\DIS_Exam_Project\DIS_Exams\DIS_Exams\obj\Release\net8.0-windows\
 DIS_Exams
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Stealth\source\repos\DIS_Exams\DIS_Exams\App.xaml
+C:\Users\Stealth\source\repos\DIS_Exam_Project\DIS_Exams\DIS_Exams\App.xaml
 2436414170
 11562051256
 6395591316
-203-1261380896
+203-701579866
 LoginWindow.xaml;MainWindow_1.xaml;
 
 False

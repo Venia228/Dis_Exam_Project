@@ -1,5 +1,5 @@
 ﻿using ExamApi;
-using System.Net.Http.Headers;
+using ExamApi.Main;
 using System.Windows.Threading;
 
 namespace DIS_Exams
@@ -11,9 +11,9 @@ namespace DIS_Exams
         private int secondsLeft = 0;
         private int wastedSeconds = 0;
         private DispatcherTimer timer;
-        private Exam exam;
+        private ExamData exam;
 
-        public ExamTimer(Exam exam)
+        public ExamTimer(ExamData exam)
         {
             this.exam = exam;
 

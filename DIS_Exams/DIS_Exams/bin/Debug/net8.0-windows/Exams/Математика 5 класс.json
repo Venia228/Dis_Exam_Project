@@ -3,12 +3,12 @@
   "availableQuestions": 5,
   "timeToSolve": 3600,
   "questions": [ "Вычислить: ~F 10 \\times \\left ( ~0 + 8 \\right ) - 3", "Вычислить: ~F \\left | 5 - ~0 \\right | + ~1^{2}", "Вычислить: ~F \\frac{2}{3} + \\frac{4}{9}", "Решить уравнение: ~F x \\left ( ~0 + ~1 \\right ) - ~2 = ~equ", "Решить уравнение: ~F ~0 \\left ( 15 - ~1x \\right ) + ~2x \\times ~3 = ~equ" ],
-  "formulas": [ "10 * (~0 + 8) -3", "Abs(5 - ~0) + Pow(~1, 2)", "(2 / 3) + (4 / 9)", "X * (~0 + ~1) - ~2", "~0 * (15 - ~1 * X) + ~2 * X * ~3" ],
+  "anwsersOrFormulas": [ "10 * (~0 + 8) -3", "Abs(5 - ~0) + Pow(~1, 2)", "(2 / 3) + (4 / 9)", "X * (~0 + ~1) - ~2", "~0 * (15 - ~1 * X) + ~2 * X * ~3" ],
   "intervals": [
     [
       {
         "_from": -3,
-        "_to": 15 
+        "_to": 15
       }
     ],
     [
@@ -46,7 +46,7 @@
       },
       {
         "_from": -5,
-        "-to":  12
+        "-to": 12
       }
     ],
     [
@@ -68,10 +68,9 @@
       },
       {
         "_from": -2,
-        "_to":  20
+        "_to": 20
       }
     ]
   ],
-  "examType": 1,
-  "useRandom": true
+  "useRandomValues": true
 }

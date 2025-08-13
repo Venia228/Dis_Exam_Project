@@ -1,4 +1,5 @@
 ﻿using System;
+using ExamApi.Main;
 using NCalc;
 
 namespace ExamApi
@@ -8,15 +9,15 @@ namespace ExamApi
         public const char keySymbol = '~';
         public const string keyWord = "equ";
 
-        public static void GetRandomExamAndValues(this Exam exam)
+        public static void GetRandomExamAndValues(this ExamData exam)
         {
             exam.GetRandomExam();
 
             Random random = new Random();
 
-            for (int i = 0; i < exam.formulas.Length; i++)
+            for (int i = 0; i < exam.anwsersOrFormulas.Length; i++)
             {
-                ref string formula = ref exam.formulas[i];
+                ref string formula = ref exam.anwsersOrFormulas[i];
                 ref string task = ref exam.questions[i];
 
                 Interval[] interval = exam.intervals[i];
@@ -56,7 +57,7 @@ namespace ExamApi
                 task = task.Replace("1(", "(");
             }
         }
-        public static void GetRandomExam(this Exam exam)
+        public static void GetRandomExam(this ExamData exam)
         {
             string[] randomQuestions = new string[exam.availableQuestions];
             string[] randomFormulas = new string[exam.availableQuestions];
@@ -71,14 +72,14 @@ namespace ExamApi
                 randomQuestions[i] = exam.questions[randomIndex];
                 exam.questions[randomIndex] = null;
 
-                randomFormulas[i] = exam.formulas[randomIndex];
-                exam.formulas[randomIndex] = null;
+                randomFormulas[i] = exam.anwsersOrFormulas[randomIndex];
+                exam.anwsersOrFormulas[randomIndex] = null;
 
                 randomIntervals[i] = exam.intervals[randomIndex];
                 exam.intervals[randomIndex] = null;
 
                 string[] av_Questions = new string[exam.intervals.Length - 1];
-                string[] av_Formulas = new string[exam.formulas.Length - 1];
+                string[] av_Formulas = new string[exam.anwsersOrFormulas.Length - 1];
                 Interval[][] av_intervals = new Interval[exam.intervals.Length - 1][];
                 int addIndex = 0;
 
@@ -90,17 +91,17 @@ namespace ExamApi
                     }
 
                     av_Questions[j] = exam.questions[j + addIndex];
-                    av_Formulas[j] = exam.formulas[j + addIndex];
+                    av_Formulas[j] = exam.anwsersOrFormulas[j + addIndex];
                     av_intervals[j] = exam.intervals[j + addIndex];
                 }
 
                 exam.questions = av_Questions;
-                exam.formulas = av_Formulas;
+                exam.anwsersOrFormulas = av_Formulas;
                 exam.intervals = av_intervals;
             }
 
             exam.questions = randomQuestions;
-            exam.formulas = randomFormulas;
+            exam.anwsersOrFormulas = randomFormulas;
             exam.intervals = randomIntervals;
         }
         public static void CheckForIllegalSymbols(ref string[] anwsers)

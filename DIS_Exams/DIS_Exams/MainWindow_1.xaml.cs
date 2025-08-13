@@ -1,4 +1,5 @@
 ﻿using ExamApi;
+using ExamApi.Main;
 using Microsoft.Win32;
 using Newtonsoft.Json;
 using System;
@@ -25,9 +26,9 @@ namespace DIS_Exams
     /// </summary>
     public partial class MainWindow_1 : Window
     {
-        private Student student = new Student();
+        private StudentData student;
 
-        private Exam exam;
+        private ExamData exam;
 
         private string[] studentAnwsers;
 
@@ -38,19 +39,17 @@ namespace DIS_Exams
         private Color[] colors;
 
         private bool examIsDone;
-        public MainWindow_1(Exam exam, params string[] customData)
+        public MainWindow_1(ExamData exam, StudentData student)
         {
             InitializeComponent();
 
             this.exam = exam;
+            this.student = student;
 
             timer = new ExamTimer(exam);
 
             timer.OnTimerUpdate += UpdateText;
             timer.Start();
-
-            student.name = customData[0];
-            student._class = customData[1];
 
             StartExam();
         }
@@ -64,7 +63,7 @@ namespace DIS_Exams
         {
             studentAnwsers = new string[exam.availableQuestions];
 
-            if (exam.useRandom)
+            if (exam.useRandomValues)
                 exam.GetRandomExamAndValues();
             else
                 exam.GetRandomExam();
@@ -142,25 +141,17 @@ namespace DIS_Exams
             timer.Stop();
 
             int rightAnwsersCount = 0;
-            student.mark = GetMark(ref rightAnwsersCount);
 
-            MessageBox.Show($"Оценка: {student.mark}\n" +
-                            $"Правильных ответов: {rightAnwsersCount} / {exam.availableQuestions}\n" +
-                            $"Время потрачено: {timer.GetWastedTime()}");
+            student.Mark = (sbyte)GetMark(ref rightAnwsersCount);
+            student.rightAnwsersCount = rightAnwsersCount;
+            student.exam = exam;
+            student.wastedTimeOnExam = timer.GetWastedTime();
 
-            string logContent = 
-                $"Ф.И.О: {student.name}\n" +
-                $"Класс: {student._class}\n" +
-                $"Оценка: {student.mark}\n" +
-                $"Количество правильных ответов: {rightAnwsersCount} / {exam.availableQuestions}\n" +
-                $"Время выполнения: {timer.GetWastedTime()}\n" +
-                $"Дата выполнения: {DateTime.Now}";
+            MessageBox.Show($"Оценка: {student.Mark}\n" +
+                            $"Правильных ответов: {student.rightAnwsersCount} / {exam.availableQuestions}\n" +
+                            $"Время потрачено: {student.wastedTimeOnExam}");
 
-            timer.Reset();
-
-            Logging newLog = new Logging(student.name, logContent);
-
-            newLog.SaveLog();
+            student.SaveFile();
         }
 
         private int GetMark(ref int rightAnwsersCount)
@@ -172,7 +163,7 @@ namespace DIS_Exams
             for (int i = 0; i < studentAnwsers.Length; i++)
             {               
                 NCalc.Expression anwser = new NCalc.Expression(studentAnwsers[i]);
-                NCalc.Expression formula = new NCalc.Expression(exam.formulas[i]);
+                NCalc.Expression formula = new NCalc.Expression(exam.anwsersOrFormulas[i]);
 
                 formula.EvaluateFunction += (name, args) =>
                 {

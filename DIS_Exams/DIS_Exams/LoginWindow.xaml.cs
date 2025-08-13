@@ -1,4 +1,5 @@
 ﻿using ExamApi;
+using ExamApi.Main;
 using Newtonsoft.Json;
 using System;
 using System.Diagnostics.Metrics;
@@ -24,16 +25,16 @@ namespace DIS_Exams
         public LoginWindow()
         {
             InitializeComponent();
-            GetFiles(Exam.filePath);
+            GetExamFiles();
         }
 
-        private void GetFiles(string path)
+        private void GetExamFiles()
         {
-            string[] files = Directory.GetFiles(path);
+            string[] files = Directory.GetFiles(new ExamData().filePath);
 
             foreach (string file in files)
             {
-                if (Path.GetExtension(file) == ".json")
+                if (Path.GetExtension(file) == $".{new ExamData().fileExtension}")
                 {
                     fileChoose.Items.Add(Path.GetFileNameWithoutExtension(file));
                 }
@@ -50,14 +51,18 @@ namespace DIS_Exams
 
             try
             {
-                string fileData = File.ReadAllText($"{Exam.filePath}{fileChoose.SelectedItem.ToString()}.json");
+                ExamData examData = new ExamData();
 
-                Exam exam = JsonConvert.DeserializeObject<Exam>(fileData);
+                string fileData = File.ReadAllText($"{examData.filePath}{fileChoose.SelectedItem.ToString()}.{examData.fileExtension}");
 
-                string _studentName = studentName.Text;
-                string _className = className.Text;
+                examData = JsonConvert.DeserializeObject<ExamData>(fileData);
 
-                MainWindow_1 window_1 = new MainWindow_1(exam, _studentName, _className);
+                StudentData studentData = new StudentData();
+
+                studentData.Name = studentName.Text;
+                studentData.ClassName = className.Text;
+
+                MainWindow_1 window_1 = new MainWindow_1(examData, studentData);
                 window_1.Show();
             }
             catch (Exception ex)

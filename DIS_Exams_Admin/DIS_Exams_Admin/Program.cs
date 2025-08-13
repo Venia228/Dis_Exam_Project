@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using ExamApi;
+using ExamApi.Main;
 
 namespace DIS_Exams_Admin
 {
@@ -31,38 +32,37 @@ namespace DIS_Exams_Admin
             {
                 case ConsoleKey.D1:
 
-                    NewExam(type: ExamType.Test, useRandom: false);
+                    NewExam(useRandom: false);
 
                     break;
 
                 case ConsoleKey.D2:
 
-                    NewExam(type: ExamType.Test, useRandom: true);
+                    NewExam(useRandom: true);
 
                     break;
 
                 case ConsoleKey.D3:
 
-                    NewExam(type: ExamType.OpenAnwser, useRandom: false);
+                    NewExam(useRandom: false);
 
                     break;
 
                 case ConsoleKey.D4:
 
-                    NewExam(type: ExamType.OpenAnwser, useRandom: true);
+                    NewExam(useRandom: true);
 
                     break;
             }
         }
-        private static void NewExam(ExamType type, bool useRandom)
+        private static void NewExam(bool useRandom)
         {
-            Exam ex = new Exam();
+            ExamData ex = new ExamData();
 
             Console.Write("Название файла экзамена: ");
             ex.fileName = Console.ReadLine() ?? ex.fileName;
 
-            ex.useRandom = useRandom;
-            ex.examType = type;
+            ex.useRandomValues = useRandom;
 
             Console.Write("Общие количество вопросов: ");
             int qCount = int.Parse(Console.ReadLine());
@@ -76,7 +76,7 @@ namespace DIS_Exams_Admin
             ex.availableQuestions = avalaibleQuestions;
             ex.timeToSolve = timeToSolve;
             ex.questions = new string[qCount];
-            ex.formulas = new string[qCount];
+            ex.anwsersOrFormulas = new string[qCount];
             ex.intervals = new Interval[qCount][];
 
             for (int i = 0; i < ex.questions.Length; i++)
@@ -89,16 +89,16 @@ namespace DIS_Exams_Admin
                 ex.questions[i] = task;
 
                 Console.Write("Формула для вычисления правильного ответа: ");
-                ex.formulas[i] = Console.ReadLine();
+                ex.anwsersOrFormulas[i] = Console.ReadLine();
 
                 int arrayIndex = 0;
 
-                if (!ex.useRandom)
+                if (!ex.useRandomValues)
                     continue;
 
                 List<Interval> intervalList = new List<Interval>();
 
-                while (ex.formulas[i].IndexOf($"{Utils.keySymbol}{arrayIndex}") >= 0)
+                while (ex.anwsersOrFormulas[i].IndexOf($"{Utils.keySymbol}{arrayIndex}") >= 0)
                 {
                     Console.WriteLine($"Интервал числа {Utils.keySymbol}{arrayIndex}");
                     Console.Write("От: ");
@@ -114,7 +114,7 @@ namespace DIS_Exams_Admin
                     arrayIndex++;
                 }
 
-                if (ex.formulas[i].IndexOf("X") >= 0)
+                if (ex.anwsersOrFormulas[i].IndexOf("X") >= 0)
                 {
                     Console.WriteLine($"Интервал числа X");
                     Console.Write("От: ");
@@ -131,19 +131,13 @@ namespace DIS_Exams_Admin
                 ex.intervals[i] = intervalList.ToArray();
             }
 
-            SaveExam(ex);
+            ex.SaveFile();
 
             Console.Clear();
 
             Console.WriteLine("Нажмите на любую клавишу для завершения работы программы...");
 
             Console.ReadKey();
-        }
-        private static void SaveExam(Exam exam)
-        {
-            string jsonText = JsonConvert.SerializeObject(exam);
-
-            File.WriteAllText($"Exams/{exam.fileName}.json", jsonText);
         }
     }
 }
