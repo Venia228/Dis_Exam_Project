@@ -12,7 +12,7 @@ namespace ExamApi.Management
         {
             File.WriteAllText($"{filePath}{fileName}.{fileExtension}", content);
         }
-        public string LoadFile()
+        public virtual object LoadFile()
         {
             return File.ReadAllText($"{filePath}{fileName}.{fileExtension}");
         }

@@ -32,6 +32,13 @@ namespace ExamApi.Main
 
             base.SaveFile();
         }
+        public override object LoadFile()
+        {
+            content = (string)base.LoadFile();
+            ExamData data = JsonConvert.DeserializeObject<ExamData>(content);
+
+            return data;
+        }
         #endregion
 
         public bool useRandomValues { get; set; }

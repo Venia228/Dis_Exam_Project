@@ -15,7 +15,7 @@
         </Grid.ColumnDefinitions>
         <ListBox x:Name="taskSelection" Margin="1339,10,10,10" Background="#FF112955" FontSize="16" Foreground="White" FontWeight="Bold" Grid.ColumnSpan="2" SelectionChanged="taskSelection_SelectionChanged"/>
 
-        <Grid x:Name="taskPage" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="794" Margin="56,47,0,0" VerticalAlignment="Top" Width="1244">
+        <Grid x:Name="taskPage" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="794" Margin="56,47,0,0" VerticalAlignment="Top" Width="1244" Visibility="Hidden">
             <Label x:Name="pageLabel" Content="Задание " HorizontalAlignment="Left" Margin="56,47,0,0" VerticalAlignment="Top" Height="53" Width="266" FontSize="36" FontWeight="Bold" FontFamily="Arial Black" Background="Transparent" Foreground="#FF112955"/>
             <Border x:Name="Border" BorderBrush="#FF112955" BorderThickness="5,5,5,5" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="471" Margin="105,109,0,0" VerticalAlignment="Top" Width="1128">
                 <StackPanel x:Name="panel" HorizontalAlignment="Left" Height="466" VerticalAlignment="Top" Width="1120">

@@ -1,0 +1,10 @@
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\bin\Debug\ExamApi.dll
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\bin\Debug\ExamApi.pdb
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\bin\Debug\NCalc.dll
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\obj\Debug\ExamApi.csproj.AssemblyReference.cache
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\obj\Debug\ExamApi.csproj.CoreCompileInputs.cache
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\obj\Debug\ExamApi.csproj.Up2Date
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\obj\Debug\ExamApi.dll
+C:\Users\Stealth\source\repos\DIS_Exam_Project\ExamApi\ExamApi\obj\Debug\ExamApi.pdb

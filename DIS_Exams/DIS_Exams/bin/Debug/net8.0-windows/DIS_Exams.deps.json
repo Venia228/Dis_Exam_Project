@@ -8,10 +8,10 @@
     ".NETCoreApp,Version=v8.0": {
       "DIS_Exams/1.0.0": {
         "dependencies": {
+          "ExamApi": "1.0.0",
           "Newtonsoft.Json": "13.0.3",
           "WpfMath": "2.1.0",
-          "ncalc": "1.3.8",
-          "ExamApi": "1.0.0.0"
+          "ncalc": "1.3.8"
         },
         "runtime": {
           "DIS_Exams.dll": {}
@@ -52,7 +52,7 @@
           }
         }
       },
-      "ExamApi/1.0.0.0": {
+      "ExamApi/1.0.0": {
         "runtime": {
           "ExamApi.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -96,8 +96,8 @@
       "path": "xamlmath.shared/2.1.0",
       "hashPath": "xamlmath.shared.2.1.0.nupkg.sha512"
     },
-    "ExamApi/1.0.0.0": {
-      "type": "reference",
+    "ExamApi/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

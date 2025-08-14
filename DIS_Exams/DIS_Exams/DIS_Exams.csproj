@@ -24,9 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="ExamApi">
-      <HintPath>..\..\ExamApi\ExamApi\bin\Release\ExamApi.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\ExamApi\ExamApi\ExamApi.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -31,11 +31,7 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {
-              "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\ExamApi\\ExamApi\\ExamApi.csproj": {
-                "projectPath": "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\ExamApi\\ExamApi\\ExamApi.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -88,22 +84,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\ExamApi\\ExamApi\\ExamApi.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\ExamApi\\ExamApi\\ExamApi.csproj",
-        "projectName": "ExamApi",
-        "projectPath": "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\ExamApi\\ExamApi\\ExamApi.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
       }
     }
   }

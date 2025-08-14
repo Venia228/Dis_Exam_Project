@@ -1,19 +1,7 @@
 ﻿using ExamApi;
 using ExamApi.Main;
-using Newtonsoft.Json;
-using System;
-using System.Diagnostics.Metrics;
 using System.IO;
-using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using WpfMath.Controls;
 
 namespace DIS_Exams
 {
@@ -53,13 +41,13 @@ namespace DIS_Exams
             {
                 ExamData examData = new ExamData();
 
-                string fileData = File.ReadAllText($"{examData.filePath}{fileChoose.SelectedItem.ToString()}.{examData.fileExtension}");
-
-                examData = JsonConvert.DeserializeObject<ExamData>(fileData);
+                examData.fileName = fileChoose.SelectedItem.ToString();
+                examData = (ExamData)examData.LoadFile();
 
                 StudentData studentData = new StudentData();
 
                 studentData.Name = studentName.Text;
+                studentData.fileName = studentData.Name;
                 studentData.ClassName = className.Text;
 
                 MainWindow_1 window_1 = new MainWindow_1(examData, studentData);
