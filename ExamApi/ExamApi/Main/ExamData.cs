@@ -1,24 +1,8 @@
 ﻿using ExamApi.Management;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ExamApi.Main
 {
-    public struct Interval
-    {
-        public int _from;
-        public int _to;
-
-        public Interval(int _from, int _to) : this()
-        {
-            this._from = _from;
-            this._to = _to;
-        }
-    }
     public class ExamData : FileManager
     {
         #region Override Properties

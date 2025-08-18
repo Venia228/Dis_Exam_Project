@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions.cs" />
     <Compile Include="Main\ExamData.cs" />
     <Compile Include="Main\StudentData.cs" />
     <Compile Include="Management\FileDescription.cs" />

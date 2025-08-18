@@ -1,109 +1,21 @@
-﻿using System;
-using ExamApi.Main;
-using NCalc;
-
-namespace ExamApi
+﻿namespace ExamApi
 {
+    public struct Interval
+    {
+        public int _from;
+        public int _to;
+
+        public Interval(int _from, int _to) : this()
+        {
+            this._from = _from;
+            this._to = _to;
+        }
+    }
     public static class Utils
     {
-        public const char keySymbol = '~';
-        public const string keyWord = "equ";
+        public static char keySymbol = '~';
+        public static string keyWord = "equ";
 
-        public static void GetRandomExamAndValues(this ExamData exam)
-        {
-            exam.GetRandomExam();
-
-            Random random = new Random();
-
-            for (int i = 0; i < exam.anwsersOrFormulas.Length; i++)
-            {
-                ref string formula = ref exam.anwsersOrFormulas[i];
-                ref string task = ref exam.questions[i];
-
-                Interval[] interval = exam.intervals[i];
-
-                int arrayIndex = 0;
-
-                while (formula.IndexOf($"{keySymbol}{arrayIndex}") >= 0)
-                {
-                    int randomValue = random.Next(interval[arrayIndex]._from, interval[arrayIndex]._to);
-
-                    task = task.Replace($"{keySymbol}{arrayIndex}", randomValue.ToString());
-
-                    formula = formula.Replace($"{keySymbol}{arrayIndex}", randomValue.ToString());
-
-                    arrayIndex++;
-                }
-
-                if (task.IndexOf($"{keySymbol}{keyWord}") >= 0)
-                {
-                    int randomValue = random.Next(interval[arrayIndex]._from, interval[arrayIndex]._to);
-
-                    formula = formula.Replace($"X", randomValue.ToString());
-
-                    Expression expression = new Expression(formula);
-
-                    task = task.Replace($"{keySymbol}{keyWord}", expression.Evaluate().ToString());
-
-                    formula = randomValue.ToString();
-                }
-
-                task = task.Replace("- -", "+ ");
-                task = task.Replace("-1X", "-X");
-                task = task.Replace("1X", "X");
-                task = task.Replace("- +", "- ");
-                task = task.Replace("+ -", "- ");
-                task = task.Replace("-1(", "-(");
-                task = task.Replace("1(", "(");
-            }
-        }
-        public static void GetRandomExam(this ExamData exam)
-        {
-            string[] randomQuestions = new string[exam.availableQuestions];
-            string[] randomFormulas = new string[exam.availableQuestions];
-            Interval[][] randomIntervals = new Interval[exam.availableQuestions][];
-
-            Random rand = new Random();
-
-            for (int i = 0; i < exam.availableQuestions; i++)
-            {
-                int randomIndex = rand.Next(0, exam.questions.Length);
-
-                randomQuestions[i] = exam.questions[randomIndex];
-                exam.questions[randomIndex] = null;
-
-                randomFormulas[i] = exam.anwsersOrFormulas[randomIndex];
-                exam.anwsersOrFormulas[randomIndex] = null;
-
-                randomIntervals[i] = exam.intervals[randomIndex];
-                exam.intervals[randomIndex] = null;
-
-                string[] av_Questions = new string[exam.intervals.Length - 1];
-                string[] av_Formulas = new string[exam.anwsersOrFormulas.Length - 1];
-                Interval[][] av_intervals = new Interval[exam.intervals.Length - 1][];
-                int addIndex = 0;
-
-                for (int j = 0; j < exam.questions.Length - 1; j++)
-                {
-                    if (exam.questions[j] == null)
-                    {
-                        addIndex++;
-                    }
-
-                    av_Questions[j] = exam.questions[j + addIndex];
-                    av_Formulas[j] = exam.anwsersOrFormulas[j + addIndex];
-                    av_intervals[j] = exam.intervals[j + addIndex];
-                }
-
-                exam.questions = av_Questions;
-                exam.anwsersOrFormulas = av_Formulas;
-                exam.intervals = av_intervals;
-            }
-
-            exam.questions = randomQuestions;
-            exam.anwsersOrFormulas = randomFormulas;
-            exam.intervals = randomIntervals;
-        }
         public static void CheckForIllegalSymbols(ref string[] anwsers)
         {
             for (int i = 0; i < anwsers.Length; i++)

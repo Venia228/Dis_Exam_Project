@@ -44,11 +44,13 @@ namespace DIS_Exams
                 examData.fileName = fileChoose.SelectedItem.ToString();
                 examData = (ExamData)examData.LoadFile();
 
-                StudentData studentData = new StudentData();
+                StudentData studentData = new StudentData
+                { 
+                    Name = studentName.Text,
+                    fileName = studentName.Text,
 
-                studentData.Name = studentName.Text;
-                studentData.fileName = studentData.Name;
-                studentData.ClassName = className.Text;
+                    ClassName = className.Text
+                };
 
                 MainWindow_1 window_1 = new MainWindow_1(examData, studentData);
                 window_1.Show();
