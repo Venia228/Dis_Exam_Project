@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DIS_Exams",
+    "\\DIS_Exams_Admin",
+    "\\DIS_Exams_Admin\\DIS_Exams_Admin",
+    "\\ExamApi",
+    "\\ExamApi\\ExamApi",
+    "\\ExamApi\\ExamApi\\Main"
+  ],
+  "SelectedNode": "\\ExamApi\\ExamApi\\Main\\ExamData.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -32,7 +32,7 @@ namespace DIS_Exams
 
         private string[] studentAnwsers;
 
-        private int maxLineLength = 90;
+        private int maxLineLength = 82;
 
         private ExamTimer timer;
 
@@ -89,15 +89,9 @@ namespace DIS_Exams
 
             int lineBreakCounts = exam.questions[taskSelection.SelectedIndex].Length / maxLineLength;
 
-            if (lineBreakCounts == 0)
-                lineBreakCounts = 1;
+            taskCondition_textPart.Items.Clear();
 
-            for (int i = 0; i < taskCondition_textPart.Items.Count; i++)
-            {
-                taskCondition_textPart.Items.RemoveAt(i);
-            }
-
-            for (int i = 0; i < lineBreakCounts; i++)
+            for (int i = 0; i <= lineBreakCounts; i++)
             {
                 if (task.Length - startIndex < length)
                 {
@@ -136,6 +130,8 @@ namespace DIS_Exams
             Timer.Visibility = Visibility.Hidden;
             endButton.Visibility = Visibility.Hidden;
 
+            AfterFinish.Visibility = Visibility.Visible;
+
             anwserField.IsEnabled = false;
 
             timer.Stop();
@@ -150,6 +146,8 @@ namespace DIS_Exams
             MessageBox.Show($"Оценка: {student.Mark}\n" +
                             $"Правильных ответов: {student.rightAnwsersCount} / {exam.availableQuestions}\n" +
                             $"Время потрачено: {student.wastedTimeOnExam}");
+
+            Mark_Text.Content = $"Оценка: {student.Mark}";
 
             student.SaveFile();
         }
@@ -183,6 +181,7 @@ namespace DIS_Exams
                     }
                     else
                     {
+                        studentAnwsers[i] = rightResult;
                         colors[i] = Color.FromRgb(255, 180, 180);
                     }
                 }

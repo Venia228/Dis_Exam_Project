@@ -11,3 +11,17 @@ C:\Users\Stealth\source\repos\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exam
 C:\Users\Stealth\source\repos\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exams_Admin.exe
 C:\Users\Stealth\source\repos\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exams_Admin.pdb
 C:\Users\Stealth\source\repos\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exams_Admin.exe.config
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\bin\Debug\DIS_Exams_Admin.exe.config
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\bin\Debug\DIS_Exams_Admin.exe
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\bin\Debug\DIS_Exams_Admin.pdb
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\bin\Debug\ExamApi.dll
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\bin\Debug\NCalc.dll
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\bin\Debug\ExamApi.pdb
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exams_Admin.csproj.AssemblyReference.cache
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exams_Admin.exe.config
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exams_Admin.csproj.CoreCompileInputs.cache
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exam.504E7C5A.Up2Date
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exams_Admin.exe
+C:\Users\Stealth\source\repos\Dis_Exam_Project\DIS_Exams_Admin\DIS_Exams_Admin\obj\Debug\DIS_Exams_Admin.pdb

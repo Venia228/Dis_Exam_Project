@@ -31,7 +31,7 @@ namespace DIS_Exams
             secondsLeft = exam.timeToSolve;
             wastedSeconds = 0;
 
-            OnTimerUpdate.Invoke($"Осталось: 00:00:00");
+            OnTimerUpdate($"Осталось: 00:00:00");
         }
         public string GetWastedTime()
         {

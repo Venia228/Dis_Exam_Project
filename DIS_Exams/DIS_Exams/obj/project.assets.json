@@ -153,9 +153,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\DIS_Exams\\DIS_Exams\\DIS_Exams.csproj",
+      "projectUniqueName": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\DIS_Exams\\DIS_Exams\\DIS_Exams.csproj",
       "projectName": "DIS_Exams",
-      "projectPath": "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\DIS_Exams\\DIS_Exams\\DIS_Exams.csproj",
+      "projectPath": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\DIS_Exams\\DIS_Exams\\DIS_Exams.csproj",
       "packagesPath": "C:\\Users\\Stealth\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\DIS_Exams\\DIS_Exams\\obj\\",
       "projectStyle": "PackageReference",
@@ -178,8 +178,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\ExamApi\\ExamApi\\ExamApi.csproj": {
-              "projectPath": "C:\\Users\\Stealth\\source\\repos\\DIS_Exam_Project\\ExamApi\\ExamApi\\ExamApi.csproj"
+            "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\ExamApi\\ExamApi.csproj": {
+              "projectPath": "C:\\Users\\Stealth\\source\\repos\\Dis_Exam_Project\\ExamApi\\ExamApi\\ExamApi.csproj"
             }
           }
         }

@@ -1,0 +1,17 @@
+{
+  "fileName": "WW",
+  "availableQuestions": 1,
+  "timeToSolve": 100,
+  "questions": [ "Сколько будет: ~F \\frac{2}{7} + \\frac{3}{10}" ],
+  "formulas": [ "(2/7) + (3/10)" ],
+  "intervals": [
+    [
+      {
+        "_from": 0,
+        "_to": 0
+      }
+    ]
+  ],
+  "examType": 1,
+  "useRandom": true
+}

@@ -8,7 +8,7 @@
     
         mc:Ignorable="d"
         Title="Программа для решения экзаменов (Login)" Height="250" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/Logo.png" Background="#FFF0F0F0">
-    <Grid Margin="0,0,0,-16">
+    <Grid Margin="0,0,0,0">
         <TextBox x:Name="studentName" HorizontalAlignment="Left" Margin="102,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" Height="23" TextAlignment="Justify"/>
         <TextBox x:Name="className" HorizontalAlignment="Left" Margin="102,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" Height="23" TextAlignment="Justify"/>
         <Label Content="Ф.И.О" HorizontalAlignment="Left" Margin="55,30,0,0" VerticalAlignment="Top" Width="47" FontWeight="Bold"/>
@@ -23,5 +23,6 @@
         </ComboBox>
         <Label Content="Экзамен" HorizontalAlignment="Left" Margin="41,109,0,0" VerticalAlignment="Top" Width="61" FontWeight="Bold" RenderTransformOrigin="0.522,0.545"/>
         <Button x:Name="Button_Start" Content="Начать" HorizontalAlignment="Center" Margin="0,171,0,0" VerticalAlignment="Top" Width="136" FontSize="14" Click="Button_Start_Click" Background="#FF112955" Foreground="White" FontWeight="Bold"/>
+        <Label x:Name="NameOfCreator" Content="Made by Shein Veniamin" Margin="379,192,0,0" FontWeight="Bold" FontSize="8"/>
     </Grid>
 </Window>
